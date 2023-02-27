@@ -18,86 +18,67 @@ methods_path = "methods/"
 context_path = "context/"
 
 kfold = 1
-# project = "lang3"
-# input_database_file = "Lang1f_line2test.txt"
-# path_len = 10
-# test_size = 0.012
+project = "lang3"
+input_database_file = "Lang1f_line2test.txt"
+path_len = 10
 
 # project = "closure"
 # input_database_file = "Closure1f_line2test.txt"
 # path_len = 7
-# # test_size = 0.007
-# test_size = 0.0015
+
 
 # project = "codec"
 # input_database_file = "Codec1f_line2test.txt"
 # path_len = 8
-# # test_size = 0.007
-# test_size = 0.004
+
 
 # project = "csv"
 # input_database_file = "Csv1f_line2test.txt"
 # path_len = 9
-# # test_size = 0.007
-# test_size = 0.01
+
 
 # project = "time"
 # input_database_file = "Time1f_line2test.txt"
 # path_len = 10
-# # test_size = 0.007
-# test_size = 0.005
+
 
 # project = "chart"
 # input_database_file = "Chart1f_line2test.txt"
 # path_len = 8
-# test_size = 0.007
-# test_size = 0.33
+
 
 # project = "compress"
 # input_database_file = "Compress1f_line2test.txt"
 # path_len = 10
-# # test_size = 0.007
-# test_size = 0.2
 
-project = "jacksonDatabind"
-input_database_file = "jacksonDatabind1f_line2test.txt"
-path_len = 10
-test_size = 0.007
-test_size = 0.2
+
+# project = "jacksonDatabind"
+# input_database_file = "jacksonDatabind1f_line2test.txt"
+# path_len = 10
+
 
 # project = "gson"
 # input_database_file = "gson_line2test.txt"
 # path_len = 11
-# # test_size = 0.007
-# test_size = 0.2
+
 
 # project = "jacksonCore"
 # input_database_file = "jacksonCore1f_line2test.txt"
 # path_len = 10
-# # test_size = 0.007
-# test_size = 0.2
+
 
 # project = "jsoup"
 # input_database_file = "jsoup1f_line2test.txt"
 # path_len = 10
-# # test_size = 0.007
-# test_size = 0.2
+
 
 # project = "jxPath"
 # input_database_file = "jxPath1f_line2test.txt"
 # path_len = 9
-# # test_size = 0.007
-# test_size = 0.2
 
 
-# if os.path.exists("src_lines.txt"):
-#   os.remove("src_lines.txt")
-# if os.path.exists("tests.txt"):
-#   os.remove("tests.txt")
-# if os.path.exists("test_path.txt"):
-#   os.remove("test_path.txt")
-# if os.path.exists("lines_covered.txt"):
-#   os.remove("lines_covered.txt")
+
+
   
   
 
