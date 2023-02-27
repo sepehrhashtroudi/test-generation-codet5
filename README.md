@@ -24,3 +24,14 @@ for generating the dataset for your project, you should copy the generated conte
 ## CodeT5
 For training the codet5 model you can copy the generated data in *code_t5/data/test_gen* folder and use the *code_t5/sh/train.sh* scripts for training the model. 
 
+## Post_processing 
+After generating the tests for each project you should use post-processing in order to select the compilable tests. 
+The compressed model prediction files are provided in post processing folder. 
+for extracting the prediction files you can use this command.
+```
+cat model-predictions.tar.gz.* | tar xzvf - 
+```
+after extracting the files, you can edit *convert_model_output_to_tests.py* and *select_runnable_tests.py* for the project under test. then you should run the *convert_model_output_to_tests.py* first. Then you run *select_runnable_tests.py* and the ready to run tests will be generated in *post_processing/out/combined*. The *post_processing/combined* folder is the result of all projects. 
+then you can copy the tests from combined folder to your java project and calculate the coverage. 
+The coverage of model generated tests can be found in *post_processing/model_gen_coverage* folder for each project.
+
